@@ -1,0 +1,12 @@
+import telebot
+import os
+
+TOKEN = os.getenv8975635688:AAGw5rgQ5HvzRsAkGsRlkNAWTbTIUDbYv7k
+
+bot = telebot.TeleBo8975635688:AAGw5rgQ5HvzRsAkGsRlkNAWTbTIUDbYv7k
+
+@bot.message_handler(commands=['start'])
+def start(message):
+    bot.reply_to(message, "Kino bot ishlayapti!")
+
+bot.infinity_polling()
